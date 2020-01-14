@@ -1,2 +1,2 @@
-# SomeExercises1
+# SomeExercisesForLearningGithub
 MyProjectNorthAmericanGroup3
