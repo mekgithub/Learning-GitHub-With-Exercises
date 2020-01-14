@@ -1,4 +1,4 @@
-# LearningGithub
+# Learning-GitHub
 
 MyProjectNorthAmericanGroup3
 
