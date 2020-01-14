@@ -1,2 +1,2 @@
-# Project1NortAmericanProject1
+# SomeExercises1
 MyProjectNorthAmericanGroup3
