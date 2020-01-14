@@ -1,0 +1,116 @@
+{
+	"id": "c14e4986-ae6d-41b9-a768-2ebd68015ede",
+	"name": "CollectionOne",
+	"allTests": [],
+	"timestamp": "2019-12-04T20:26:04.070Z",
+	"collection_id": "ddefd6ba-3f20-454d-b2ba-b1b4194da2be",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 2,
+	"collection": {
+		"id": "ddefd6ba-3f20-454d-b2ba-b1b4194da2be",
+		"name": "CollectionOne",
+		"order": [],
+		"folders_order": [
+			"375ece84-1fd3-4af3-b822-99b5ca4deda7"
+		],
+		"isFavorite": true
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "GET LIst Of Users1",
+			"id": "cc9c86b6-e710-4be0-a3ef-b1deb1a10ffb",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"395",
+				"349"
+			],
+			"allTests": [
+				{},
+				{}
+			],
+			"time": "349",
+			"totalRequestTime": 744,
+			"iterationResults": {}
+		},
+		{
+			"name": "GET Single User1",
+			"id": "28ad7222-f3c3-47dc-8b33-d93a9c326406",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"93",
+				"55"
+			],
+			"allTests": [
+				{},
+				{}
+			],
+			"time": "55",
+			"totalRequestTime": 148,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 892,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "GET LIst Of Users1",
+			"id": "cc9c86b6-e710-4be0-a3ef-b1deb1a10ffb",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": "349",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "GET Single User1",
+			"id": "28ad7222-f3c3-47dc-8b33-d93a9c326406",
+			"url": "https://reqres.in/api/users/2",
+			"time": "55",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
